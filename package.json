@@ -1,0 +1,36 @@
+{
+  "name": "train-app",
+  "version": "1.0.0",
+  "description": "This app uses BART API and displays information about station and scheduling time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurchan1111/train-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurchan1111/train-app/issues"
+  },
+  "homepage": "https://github.com/arthurchan1111/train-app#readme",
+  "dependencies": {
+    "@angular/animations": "^5.2.0",
+    "@angular/cli": "^1.6.4",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/schematics": "0.0.43",
+    "@angular/compiler-cli": "^5.2.0",
+    "typescript": "^2.4.2"
+  }
+}
