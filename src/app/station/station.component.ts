@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BartService } from './bart_service/bart.service';
+import { BartService } from '../bart_service/bart.service';
 
 @Component({
   selector: 'station',
@@ -7,16 +7,21 @@ import { BartService } from './bart_service/bart.service';
 })
 
 export class StationComponent implements OnInit{
-  stations: stations[];
+  private stations : any[];
 
   constructor (private bartService : BartService){}
 
   ngOnInit(){
     this.getStations();
+    console.log(this.stations);
   }
 
   getStations(): void{
-    this.bartService.getStations().subscribe
+    this.bartService.getStations().subscribe(
+      (data: any) => {console.log(data);
+        this.stations  = data;
+      }
+    );
 
   }
 
