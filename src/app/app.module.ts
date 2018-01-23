@@ -9,7 +9,7 @@ import { NavComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { BartService } from './bart_service/bart.service';
-import { StationComponent } from './station/station.component';
+import { StationComponent } from './stationlist/stationlist.component';
 
 
 @NgModule({

@@ -1,0 +1,8 @@
+<h1> Stations List </h1>
+
+<ul>
+  <li *ngFor="let station of stations">
+    <a href="#">{{ station.name }} ({{station.abbr}})</a>
+    <a href="#"> More info </a>
+  </li>
+</ul>

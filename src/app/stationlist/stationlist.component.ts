@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { BartService } from '../bart_service/bart.service';
 
 @Component({
-  selector: 'station',
+  selector: 'stationlist',
   templateUrl: './station.component.html',
 })
 
@@ -19,7 +19,8 @@ export class StationComponent implements OnInit{
   getStations(): void{
     this.bartService.getStations().subscribe(
       (data: any) => {console.log(data);
-        this.stations  = data;
+        this.stations  = data.root.stations.station;
+        console.log(this.stations);
       }
     );
 
