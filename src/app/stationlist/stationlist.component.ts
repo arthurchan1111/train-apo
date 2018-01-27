@@ -3,7 +3,7 @@ import { BartService } from '../bart_service/bart.service';
 
 @Component({
   selector: 'stationlist',
-  templateUrl: './station.component.html',
+  templateUrl: './stationlist.component.html',
 })
 
 export class StationComponent implements OnInit{

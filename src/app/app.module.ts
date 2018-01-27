@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { BartService } from './bart_service/bart.service';
 import { StationComponent } from './stationlist/stationlist.component';
+import { StationInfoComponent } from './stationinfo/stationinfo.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { StationComponent } from './stationlist/stationlist.component';
     NavComponent,
     LoginComponent,
     RegisterComponent,
-    StationComponent
+    StationComponent,
+    StationInfoComponent
   ],
   imports: [
     BrowserModule,
