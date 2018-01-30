@@ -11,6 +11,7 @@ import { RegisterComponent } from './register/register.component';
 import { BartService } from './bart_service/bart.service';
 import { StationComponent } from './stationlist/stationlist.component';
 import { StationInfoComponent } from './stationinfo/stationinfo.component';
+import { SettingComponent } from './settings/settings.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { StationInfoComponent } from './stationinfo/stationinfo.component';
     LoginComponent,
     RegisterComponent,
     StationComponent,
-    StationInfoComponent
+    StationInfoComponent,
+    SettingComponent
   ],
   imports: [
     BrowserModule,
