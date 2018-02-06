@@ -1,1 +1,17 @@
-<h1> {{station.name}}({{station.abbr}})</h1>
+<h1>{{stationinfo.name}}({{stationinfo.abbr}})</h1>
+
+<p> {{stationinfo.address}}, {{stationinfo.city}} {{stationinfo.state}} {{stationinfo.zipcode}}</p>
+
+<h3>Platforms:</h3>
+
+<p>{{stationinfo.north_platforms.platform}} {{stationinfo.south_platforms.platform}}</p>
+
+<h3> Routes: </h3>
+
+<p>{{stationinfo.north_routes.route}}</p>
+
+<p>{{stationinfo.south_routes.route}}</p>
+
+<p> Parking: </p>
+
+<p> Bike Routes:</p>
